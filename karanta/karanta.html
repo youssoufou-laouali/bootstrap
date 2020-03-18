@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light  row position-fixed fixed-top" style="background-color:rgba(164, 217, 248, 0.719)">
+            <a class="navbar-brand col-2 offset-2" href="#"><span class="d-inline-block bg-primary text-white rounded-circle h1 px-2">K</span>aranta</a>
+            <button class="navbar-toggler col-1 mr-2" type="button" data-toggle="collapse" data-target="#navb" aria-controls="navb" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse col-5 offset-3" id="navb">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-primary" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Les auteurs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="card no-gutters text-white">
+            <div>
+                <img src="1overlay.jpg" class="card-img" alt="..." style="min-height: 37rem; max-height:40rem;">
+            </div>
+            <div class="card-img-overlay row d-flex text-center" style="background-color: rgba(48, 145, 224, 0.616); padding-top: 8rem;">
+                <div class="col-lg-4 offset-lg-2">
+                    <h1 class="card-title display-4">Lire et Ecrire,<br> Compter,<br> Coder...</h1>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit. Laborum, quas.</p>
+                    <button type="button" class="btn btn-outline-light"> <i class="fa fa-arrow-right"></i> Voir plus</button>
+                </div>
+                <div class="col-lg-3 offset-lg-1 d-none d-lg-block">
+                    <img src="1.jpeg" alt="..." style="height:20rem">
+                </div>
+
+
+            </div>
+        </div>
+        <form>
+            <div class="row bg-dark py-5 justify-content-center">
+                <div class="col-lg-3 mt-2"> <input type="text" name="Name" id="name1" class="form-control" placeholder="Entrer votre Nom"></div>
+                <div class="col-lg-3 mt-2"><input type="email" name="email" id="email1" class="form-control" placeholder="Entrer votre Email"></div>
+                <div class="col-lg-3 mt-2"><button class="btn btn-primary btn-block"><i class="fa fa-envelope-open"></i> Souscrire</button></div>
+            </div>
+        </form>
+
+        <div class="row py-5 justify-content-center">
+            <div class="text-center border border-primary col-lg-2 mx-lg-3 pb-2">
+                <p>
+                    <h2 class="text-primary">Be Better</h2>
+                    Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. <br> Dolorum, quibusdam.
+                </p>
+            </div>
+
+            <div class="text-center col-lg-2 bg-primary text-white mx-lg-3">
+                <p>
+                    <h2>Be Smarter</h2>
+                    Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. <br> Dolorum, quibusdam.
+                </p>
+            </div>
+
+            <div class="text-center border border-primary col-lg-2 mx-lg-3">
+                <p>
+                    <h2 class="text-primary">Be Faster</h2>
+                    Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. <br> Dolorum, quibusdam.
+                </p>
+            </div>
+
+            <div class="text-center bg-primary text-white col-lg-2 mx-lg-3">
+                <p>
+                    <h2>Be Stronger</h2>
+                    Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. <br> Dolorum, quibusdam.
+                </p>
+            </div>
+        </div>
+
+        <div class="text-center bg-light pt-5">
+            <div class="row justify-content-center mb-4">
+                <div class="col-4">
+                    <p>
+                        <h2 class="text-primary">Pourquoi ce Livre ?</h2>
+                        Lorem ipsum dolor sit amet, consecteture adipisicing elit. amet <br> omnis fuga maiores excepturi dolores explicabo.
+                    </p>
+                    <hr class="my-4">
+                </div>
+            </div>
+
+            <div class="accordion" id="parent">
+                <div class="card">
+                    <div class="card-header" id="head1">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#contenu1" aria-expanded="true" aria-controls="collapseOne">
+                                <i class="fa fa-arrow-circle-down"></i>Inspiration
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="contenu1" class="collapse show" aria-labelledby="head1" data-parent="#parent">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                            on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                            beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="header2">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#contenu2" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="fa fa-arrow-circle-down"></i>Savoir
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="contenu2" class="collapse" aria-labelledby="header2" data-parent="#parent">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                            on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                            beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header" id="header3">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#contenu3" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="fa fa-arrow-circle-down"></i>Opportunité
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="contenu3" class="collapse" aria-labelledby="header3" data-parent="#parent">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                            on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                            beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center mb-4 text-center pt-5">
+            <div class="col-4">
+                <p>
+                    <h2 class="text-primary">Les auteurs</h2>
+                    Lorem ipsum dolor sit amet, consecteture adipisicing elit. amet <br> omnis fuga maiores excepturi dolores explicabo.
+                </p>
+                <hr class="my-4">
+            </div>
+        </div>
+
+        <div class="row justify-content-center text-center my-5">
+            <div class="card col-lg-2 mx-lg-4 mt-5 v">
+                <img src="issingp.jpg" alt="..." class=" card-img img-fluid rounded-circle mx-auto border-bottom border-warning pt-5" style="max-width:14rem; position: relative; bottom: 5rem;">
+                <h3> Youssoufou Laouali</h3>
+                <p class="font-italic"> web-master</p>
+                <p>Lorem ipsum dolor sit amet, consecteture adipisicing elit. amet omnis fuga maiores excepturi dolores explicabo.Lorem ipsum dolor sit amet, consecteture adipisicing elit. amet omnis fuga maiores excepturi dolores explicabo.</p>
+                <div class="row justify-content-center py-4">
+                    <a href="#" class="col text-warning"> <i class="fa fa-facebook-f"></i></a>
+                    <a href="#" class="col-3 text-warning"><i class="fa fa-twitter"></i>
+                    <a href="#" class="col text-warning"> <i class="fa fa-instagram col"></i></a>
+                </div>
+            </div>
+
+            <div class="card col-lg-2 mx-lg-4 mt-5 v">
+                <img src="issingp.jpg" alt="..." class=" card-img img-fluid rounded-circle mx-auto border-bottom border-warning pt-5" style="max-width:14rem; position: relative; bottom: 5rem;">
+                <h3> Youssoufou Laouali</h3>
+                <p class="font-italic"> web-master</p>
+                <p>Lorem ipsum dolor sit amet, consecteture adipisicing elit. amet omnis fuga maiores excepturi dolores explicabo.Lorem ipsum dolor sit amet, consecteture adipisicing elit. amet omnis fuga maiores excepturi dolores explicabo.</p>
+                <div class="row justify-content-center py-4">
+                    <a href="#" class="col text-warning"> <i class="fa fa-facebook-f"></i></a>
+                    <a href="#" class="col-3 text-warning"><i class="fa fa-twitter"></i>
+                    <a href="#" class="col text-warning"> <i class="fa fa-instagram col"></i></a>
+                </div>
+            </div>
+
+            <div class="card col-lg-2 mx-lg-4 mt-5 v">
+                <img src="issingp.jpg" alt="..." class=" card-img img-fluid rounded-circle mx-auto border-bottom border-warning pt-5" style="max-width:14rem; position: relative; bottom: 5rem;">
+                <h3> Youssoufou Laouali</h3>
+                <p class="font-italic"> web-master</p>
+                <p>Lorem ipsum dolor sit amet, consecteture adipisicing elit. amet omnis fuga maiores excepturi dolores explicabo.Lorem ipsum dolor sit amet, consecteture adipisicing elit. amet omnis fuga maiores excepturi dolores explicabo.</p>
+                <div class="row justify-content-center py-4">
+                    <a href="#" class="col text-warning"> <i class="fa fa-facebook-f"></i></a>
+                    <a href="#" class="col-3 text-warning"><i class="fa fa-twitter"></i>
+                    <a href="#" class="col text-warning"> <i class="fa fa-instagram col"></i></a>
+                </div>
+            </div>
+
+            <div class="card col-lg-2 mx-lg-4 mt-5 v">
+                <img src="issingp.jpg" alt="..." class=" card-img img-fluid rounded-circle mx-auto border-bottom border-warning pt-5" style="max-width:14rem; position: relative; bottom: 5rem;">
+                <h3> Youssoufou Laouali</h3>
+                <p class="font-italic"> web-master</p>
+                <p>Lorem ipsum dolor sit amet, consecteture adipisicing elit. amet omnis fuga maiores excepturi dolores explicabo.Lorem ipsum dolor sit amet, consecteture adipisicing elit. amet omnis fuga maiores excepturi dolores explicabo.</p>
+                <div class="row justify-content-center py-4">
+                    <a href="#" class="col text-warning"> <i class="fa fa-facebook-f"></i></a>
+                    <a href="#" class="col-3 text-warning"><i class="fa fa-twitter"></i>
+                    <a href="#" class="col text-warning"> <i class="fa fa-instagram col"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-6">
+                <h4>Nous ecrire</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, et.</p>
+                <form action="." method="post">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="prepend1"><i class="fa fa-user"></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Nom" aria-label="Username" aria-describedby="prepend1">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="prepend2"><i class="fa fa-envelope"></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="prepend2">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-comment"></i></span>
+                        </div>
+                        <textarea class="form-control" aria-label="Message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block mb-5">Envoyer</button>
+                </form>
+            </div>
+
+            <p class="d-block bg-primary text-warning rounded-circle display-1 my-auto px-5 ml-4">K</p>
+        </div>
+
+        <div class="row bg-primary text-white justify-content-center py-5">
+            <p class=" offset-6">Copyright © Karanta 2019</p>
+        </div>
+
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<style>
+    .v:hover {
+        background-color: rgba(0, 119, 255, 0.753);
+        color: white;
+    }
+</style>
+
+</html>
